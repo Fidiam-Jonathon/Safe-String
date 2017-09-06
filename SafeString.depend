@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1498943017 source:c:\users\jonat\onedrive\documents\safestring\main.cpp
+	<iostream>
+	"string.h"
+
+1500598551 c:\users\jonat\onedrive\documents\safestring\string.h
+	<iostream>
+
+1499369777 source:c:\users\jonat\onedrive\documents\safestring\string.cpp
+	"string.h"
+
