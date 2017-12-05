@@ -24,6 +24,10 @@ class String{
 		capacity = 2;
 		text = new char[capacity];
 
+		for (int i = 0; i < capacity; i++){
+            text[i] = 0;
+		}
+
 	}
 
 	String(char* txt){
@@ -42,10 +46,11 @@ class String{
 
 	}
 	~String(){
+
 	    delete [] text;
 	    size = 0;
-	    capacity = 0;
 	}
+
 
 	void clear(){
 	    for (int i = 0; i < capacity; i++)
@@ -73,8 +78,8 @@ class String{
 
 };
 
-String operator + (String &s1, const String &s2);
-String operator + (String &s1, char c1[]);
+String operator + (const String &s1, const String &s2);
+String operator + (const String &s1, char c1[]);
 
 bool operator > (const String &s1, const String &s2);
 bool operator > (char c1[], const String &s1);

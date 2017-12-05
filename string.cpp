@@ -6,7 +6,7 @@ using namespace std;
 * OPERATOR +
 * adds two string objects together
 ***********************************/
-String operator + (String &s1, const String &s2)
+String operator + (const String &s1, const String &s2)
 {
     String s3;
     s3.append(s1);
@@ -14,7 +14,7 @@ String operator + (String &s1, const String &s2)
     return s3;
 }
 
-String operator + (String &s1, char c1[])
+String operator + (const String &s1, char c1[])
 {
     String s2;
     s2.append(s1);
@@ -342,13 +342,13 @@ void String :: append(const String &s1){
 
     while (s1.text[i]){
         if (size == capacity)
-            expand();
+            this->expand();
 
-        text[size] = s1.text[i];
+        this->text[size] = s1.text[i];
         size++;
         i++;
     }
-    text[size] = 0;
+    this->text[size] = 0;
 }
 
 void String :: append(char txt[]){

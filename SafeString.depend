@@ -3,9 +3,19 @@
 	<iostream>
 	"string.h"
 
-1500598551 c:\users\jonat\onedrive\documents\safestring\string.h
+1511831051 c:\users\jonat\onedrive\documents\safestring\string.h
 	<iostream>
 
-1499369777 source:c:\users\jonat\onedrive\documents\safestring\string.cpp
+1511830483 source:c:\users\jonat\onedrive\documents\safestring\string.cpp
+	"string.h"
+
+1498943017 source:c:\users\jonat\onedrive\documents\github\safe-string\main.cpp
+	<iostream>
+	"string.h"
+
+1512436026 c:\users\jonat\onedrive\documents\github\safe-string\string.h
+	<iostream>
+
+1511830483 source:c:\users\jonat\onedrive\documents\github\safe-string\string.cpp
 	"string.h"
 
